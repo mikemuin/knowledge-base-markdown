@@ -1,0 +1,46 @@
+# EMR: Kariton vs. Car
+
+## Kariton Table
+
+| #    | Feature                  | Kariton Description                                          | Car Description                                              | User Capability (Car-Specific)                               |
+| ---- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1    | 4 wheels                 | All-terrain wooden wheels, usually scavenged.                | Standard rubber tires with alloy or steel rims.              | Can drive at high speeds on highways or expressways.         |
+| 2    | Rear-wheel drive         | Driver pushes from the back for full propulsion.             | Engine transmits power to the rear axle for acceleration.    | Can accelerate smoothly using the gas pedal.                 |
+| 3    | Driver-operated          | Needs someone physically pushing and steering.               | Controlled via steering wheel, pedals, and onboard systems.  | Can sit comfortably while controlling the vehicle.           |
+| 4    | Manual transmission      | 100% human-powered shifting — by legs and arms.              | Gear shifting system operated by clutch and stick.           | Can shift gears to optimize speed and engine power.          |
+| 5    | Open-air design          | No doors, windows, or windshield; natural airflow.           | Convertible or sunroof options; windows open for ventilation. | Can open/close windows or roof via controls.                 |
+| 6    | Cargo space              | Built to carry recyclables, vegetables, or furniture.        | Trunk and back seats for luggage or shopping.                | Can load groceries or luggage securely in the trunk.         |
+| 7    | Customizable body        | Can add wood, tarpaulin, or paint; design is flexible.       | Aftermarket body kits, decals, or paint jobs.                | Can go to an auto shop to install spoilers, wraps, or lights. |
+| 8    | Side mirrors optional    | Uses reflective metal or none at all — just look over your shoulder. | Factory-installed side mirrors with blind spot monitoring.   | Can adjust side mirrors electronically from the driver’s seat. |
+| 9    | Recyclable parts         | Entire kariton can be rebuilt from scrap.                    | Some car parts can be recycled or reused during servicing.   | Can bring car to CASA for official replacement of parts.     |
+| 10   | Fuel-efficient           | Fueled by street food, water, or sheer determination.        | Uses petrol, diesel, hybrid, or electric powertrains.        | Can refuel at a gas station or charge at EV station.         |
+| 11   | Hand brake system        | The driver literally holds the wheels or uses friction.      | Lever or button-operated parking brake system.               | Can activate parking brake when stopping on inclines.        |
+| 12   | Horn substitute          | Verbal “Tabi po!” or tapping wood serves as warning.         | Electrically powered horn activated by steering wheel.       | Can press the horn to alert other vehicles or pedestrians.   |
+| 13   | Multi-terrain capable    | Works on sidewalks, potholes, and drainage covers.           | Designed for highway, city, or off-road performance with suspension tuning. | Can switch to AWD/4WD for difficult terrain.                 |
+| 14   | Roof rack ready          | Top board or pole to carry long pipes or items.              | Installed roof racks for bikes, luggage, or cargo boxes.     | Can strap in a surfboard, bike, or balikbayan box on top.    |
+| 15   | Passenger seat           | Someone can sit on the load, if there’s space.               | Designated cushioned seats with seat belts.                  | Can carry multiple passengers legally and comfortably.       |
+| 16   | LED lighting (optional)  | Some karitons have flashlights or reflectors tied on.        | Integrated LED headlights, taillights, and interior lights.  | Can drive safely at night with headlight controls.           |
+| 17   | License-free operation   | No registration required; just push and go.                  | Requires LTO registration and plate number.                  | Can legally drive on public roads after passing a driving exam. |
+| 18   | Shock absorption         | Flexible wood and driver skill handle bumps.                 | Suspension system with shocks and struts.                    | Can drive over humps and uneven roads smoothly.              |
+| 19   | Speed governed           | Limited by the driver’s stamina.                             | ECU or speed limiter restricts maximum speed electronically. | Can reach up to 180 kph depending on vehicle.                |
+| 20   | Environmentally friendly | No emissions; biodegradable frame.                           | Hybrid and electric models reduce carbon footprint.          | Can reduce fuel consumption and participate in green driving programs. |
+
+## EMR Table
+
+| #    | Feature                   | Common Phrase (Ambiguous/Overlapping) | HIS (Finance-Centric) Capability                             | EMR (Clinical-Centric) Capability                            |
+| ---- | ------------------------- | ------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1    | Patient Record Management | "Patient profile"                     | Stores patient demographics, PhilHealth number, account number, and billing class. | Stores complete clinical profile including allergies, vitals, history, diagnoses, and care plans. |
+| 2    | Encounter/Visit Tracking  | "Admission history"                   | Lists dates of admissions with corresponding charge slips and AR ledgers. | Tracks clinical episodes with SOAP notes, assessments, and discharge summaries. |
+| 3    | Order Management          | "Order entry"                         | Tracks items ordered (labs, meds) primarily to compute charges and consumption. | Allows doctors to enter clinical orders with instructions, dosages, and clinical indications. |
+| 4    | Medication Handling       | "Medication list"                     | Lists items dispensed from pharmacy, mostly for costing and inventory tracking. | Captures prescribed medications, MARs, clinical instructions, and adverse reactions. |
+| 5    | Laboratory Integration    | "Lab results available"               | Refers to encoded results for billing (e.g., “CBC done”, value is optional or delayed). | Includes structured, timestamped lab data viewable per test with clinical flags. |
+| 6    | Progress Notes            | "Doctors’ notes"                      | Often scanned paper notes or short diagnosis lines for PhilHealth claims. | Structured and chronological SOAP/clinical notes per provider with decision-making rationale. |
+| 7    | Diagnosis Documentation   | "ICD codes"                           | Entered to support PhilHealth RVS mapping and billing submission. | Used for clinical reasoning, longitudinal problem list, and analytics. |
+| 8    | Procedure Documentation   | "Procedures performed"                | Recorded mainly for charge capture and PhilHealth case rate mapping. | Includes full operative notes, consent forms, technique descriptions, and complications. |
+| 9    | Chart Review              | "Can view records"                    | Can view previous bills, itemized charges, and room transfers. | Can view full clinical chart including imaging, labs, progress notes, and nursing documentation. |
+| 10   | Reporting                 | "Reports available"                   | Financial, census, and utilization reports (revenue by department, unpaid AR, etc.). | Clinical quality, audit logs, outcome tracking, infection control, and research analytics. |
+| 11   | PhilHealth Integration    | "PhilHealth-ready"                    | Can print CF4, auto-tag ICD/RVS codes, and compute case rates. | Auto-populates clinical forms (CF4, MEWS, etc.) with actual clinical entries for submission. |
+| 12   | Nursing Documentation     | "Nurses can chart"                    | May only have checkbox-type inputs for vitals and medicine given, sometimes scanned. | Includes nursing assessments, care plans, hourly rounding, shift endorsements, and MAR. |
+| 13   | Access Control            | "Role-based access"                   | Cashier sees billing, nurse sees order list, but clinical data access is limited or missing. | Full role-based access with clinical privileges and logging (e.g., audit trail for changes). |
+| 14   | Discharge Summary         | "Discharge module"                    | Allows encoding of discharge date, final billing, and generation of SOA. | Includes discharge summary, follow-up instructions, meds, referrals, and patient education. |
+| 15   | Interoperability          | "Integrates with other systems"       | May mean simple data export (CSV) or manual HL7 lab result feed for billing. | Uses HL7/FHIR for real-time exchange of clinical data, referrals, and continuity of care. |

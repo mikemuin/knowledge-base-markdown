@@ -1,0 +1,17 @@
+**OpenHIE, Not Open Promises: The Framework That Can Fix NHDR**
+
+The Philippines doesn’t need to invent a new health data framework — it already exists. It’s called **OpenHIE** (Open Health Information Exchange), and it’s been successfully implemented in countries with similar constraints: limited infrastructure, decentralized governance, and diverse local systems. Yet, two years after the National Health Data Repository (NHDR) was established, there’s still no working architecture or operational blueprint. The NHDR keeps being described as a “central repository,” but in 2025, that model is already obsolete.
+
+**OpenHIE** provides a clear, modular structure for building health information exchanges at scale. It defines three essential layers: **foundational registries**, the **interoperability layer**, and the **service layer**. Together, these ensure that health data moves securely and meaningfully across different systems while maintaining data ownership and governance at the appropriate level.
+
+At the base are **foundational registries** — the backbone of interoperability. These include the **client/patient registry**, **health facility registry**, **provider registry**, **terminology service**, and **product/medicine registry**. Without these, it’s impossible to reliably match patients, identify facilities, or interpret clinical data. In the Philippines, not one of these registries is operational, governed, or synchronized. Until they exist, NHDR cannot function beyond PowerPoint slides.
+
+The second layer, the **interoperability layer**, handles routing, validation, and security. This is where data exchange rules live — who can access what, how identifiers are verified, and how systems authenticate transactions. In a proper NHDR setup, this layer would allow provincial health systems, PhilHealth, and DOH to share data seamlessly while respecting privacy and local governance. It’s also where standards like HL7, FHIR, or CSV formats are translated into a common model, so no single protocol becomes a bottleneck.
+
+The third layer, the **service layer**, includes components like the **Shared Health Record**, **Analytics Hub**, and **Terminology Services**. These are the user-facing pieces that generate value — dashboards for DOH, shared clinical views for providers, and anonymized data for research. Critically, under OpenHIE, the **Shared Health Record is just one service**, not the entire repository. It’s an access point, not the data warehouse itself.
+
+This architecture aligns perfectly with the UHC Act. Provincial and City Health Systems can host their own exchanges, manage their local registries, and still synchronize with national sources. Data ownership remains local, but insights become national. This model respects devolution, ensures sustainability, and builds trust.
+
+If the NHDR had adopted OpenHIE from the start, the country could already be piloting functional exchanges in select provinces. Instead, the project is stuck debating formats and committee structures. The fix isn’t another policy meeting — it’s to **adopt OpenHIE officially**, fund the foundational registries, and assign clear custodianship for each.
+
+The world doesn’t need another centralized health database that no one uses. It needs a working network that connects care, powered by proven architecture. OpenHIE isn’t theory — it’s the path to finally turning NHDR from open promise into open progress.

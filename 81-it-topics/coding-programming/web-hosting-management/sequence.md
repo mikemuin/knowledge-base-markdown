@@ -1,0 +1,59 @@
+# Sequence of Events
+
+- Domain Registrar
+  - What's the domain?
+  - Namecheap (.com, .dev, all else)
+  - DotPH (kranium.com.ph, etc)
+  - Add the Nameservers Here
+    - Namecheap BasicDNS
+    - Digitalocean
+      - Domain is hosted in our DO servers
+    - Cloudflare
+      - Public use. We expect users.
+- Nameservers
+  - Da
+  - Where are the servers located?
+    - **DNS Record**
+    - IP Address
+  - Why 2?
+    - DO --> we all started in DO
+-
+  - Digitalocean
+    - Networking --> Domains
+  - Cloudflare
+    - Accounts
+- DNS Records
+  - A --> Main IP of Domain
+    - medprojects.com --> IP Address
+    - pinoyhealth.net --> IP Address
+  - And all other domain name related services
+    - Subdomain (dir.krnm.dev, forms.krnm.dev)
+    - Email (MX)
+- Host
+  - Digitalocean Servers
+    - Reserved IP, or
+    - Direct IP Addresses of the Servers
+  - Greengeeks
+- Greengeeks
+  - WHM (Web Host Manager)
+    - Manage multiple cPanels
+    - Each domain has 1 cPanel
+    - List Account (Usually package allows for 25 cPanel Accounts)
+    - Account Creation
+  - cPanel
+    - Admin Panel for website management
+    - WordPress Installation
+    - Database Tools
+    - Phpmyadmin
+- WP Admin
+  - Themes
+    - Divi
+  - Plugins
+    - Classic Editor
+    - ManageWP
+    - Site Kit by Google
+    - XML Sitemap Generator for Google
+    - Formidable Forms
+    - GoSMTP
+    - CookieAdmin (Pro)
+    - LiteSpeed Cache

@@ -1,0 +1,12 @@
+# HIMSS EMRAM Stages Tables
+
+| **Stage**   | **2005 EMRAM**                                               | **2016 EMRAM**                                               | **2022 EMRAM**                                               |
+| ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Stage_7** | Complete EMR; data warehousing; governance; continuity of care; data analytics | Medical record fully electronic; HIE participation; data analytics; governance; disaster recovery; continuity of care | Predictive analytics; clinical decision support (CDS); public health reporting; closed-loop processes across all settings; patient engagement; system governance |
+| **Stage 6** | Physician documentation (structured); clinical decision support; full PACS | CDS with variance detection; structured documentation; full radiology PACS | Advanced CDS; electronic clinical documentation; closed-loop medication administration (BCMA, eMAR) |
+| **Stage 5** | Closed-loop medication administration (eMAR, BCMA)           | Closed-loop medication admin; barcode/RFID; capability for advanced CDS | Integration of smart devices (e.g., IV pumps); contextual CDS; rules-based alerts |
+| **Stage 4** | CPOE; CDS (e.g., drug interactions)                          | CPOE with CDS; lab, radiology and pharmacy systems integrated | Physician documentation; CDS with guidance at point of care; evidence-based order sets |
+| **Stage 3** | Nursing/clinical documentation (vitals, flowsheets); CDSS (error checking) | Clinical documentation; error checking; some CDS; more departments covered | Basic analytics; structured documentation; system interoperability across some units |
+| **Stage 2** | CDR (clinical data repository); internal HIE; clinical decision support (rudimentary) | HIE within hospital; CDR active; beginning of CDS            | Data-driven decision-making; intra-facility interoperability; active clinical documentation |
+| **Stage 1** | Lab, radiology, pharmacy systems installed                   | Ancillary systems operational; CDR populated                 | Digitized medical records (basic); department-level digitization; interoperability begins |
+| **Stage 0** | All three ancillary systems not installed                    | Some ancillary systems may be installed; no integration      | Paper-based; minimal digitization; limited or no clinical IT |

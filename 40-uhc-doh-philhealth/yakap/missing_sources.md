@@ -1,0 +1,28 @@
+# Missing Sources
+
+Based on the sources provided, while many core forms, benefit tables, and guidelines for the transition (Konsulta, PCPN Sandbox, K+SDG) are included, several crucial implementing guidelines, annexes, and system specifications referenced within these documents are either listed as forthcoming or mentioned as being defined in separate issuances, making them necessary for a complete understanding of the YAKAP ecosystem.
+
+Here are key documents or annexes referenced in the current policies that are not fully available within the provided excerpts:
+
+### 1. Core Policy and Benefit Definition Documents
+
+- **Complementary Implementing Guidelines for Konsulta+:** PhilHealth Circular (PC) No. 2022-0032, which governed the policies of **Konsulta+** (the antecedent comprehensive outpatient benefit package), states that the **specific services included in Konsulta+ will be further defined in a complementary implementing guidelines**. Since YAKAP is the evolution of Konsulta/Konsulta+, the contents of this crucial comprehensive guideline are missing.
+- **GAMOT List (Annex A.1 of PC 2025-0013):** The PhilHealth GAMOT Circular references the **GAMOT List**, which contains the list of essential medications used in outpatient management, and the **GAMOT Fixed Fee Schedule (Annex A.2)**. The specific list of molecules, preparations, and their associated fixed fee schedule are vital for understanding the scope and financing of the drug benefit package within YAKAP.
+- **List of Available Medications Under the K+SDG Package (Annex A.3 of PC 2024-0022):** Although the K+SDG service inclusions are listed, the specific list of **Available Medications Under the K+SDG Package** (Annex A.3) is referenced in the annex list but its content is not provided.
+
+### 2. Provider Contracting and Network Management Documents
+
+- **Guidelines on Contracting Health Care Provider Networks (HCPNs):** The K+SDG Circular (PC 2024-0022) references **PhilHealth Circular (PC) No. 2024-0015, "Guidelines on Contracting Health Care Provider Networks,"**. This document is fundamental, as it details the mechanism by which PhilHealth will fund the HCPN and is necessary for understanding the integration of the enhanced packages (like K+SDG) into the network structure.
+- **Omnibus Guidelines on the Accreditation of Health Facilities (PC 2023-0012):** The policies governing GAMOT Facilities and K+SDG Providers refer to PhilHealth Circular **PC No. 2023-0012** for general accreditation processes, grounds for suspension/denial, and validity rules. This external circular, which contains the overarching accreditation framework, is not included.
+- **GAMOT Performance Evaluation Report (Annex H of PC 2025-0013):** The GAMOT Circular states that the performance reports generated from the GAMOT App will be used for evaluating GAMOT Facilities. The template for this report is listed as **Annex H: Performance Evaluation Report**, which details the metrics used (such as drug performance, total quantity dispensed, and frequency of stock-outs).
+
+### 3. IT and System Specifications
+
+- **Technological Capacity Specifications for PC Clinics (Annex I of PC 2025-0017):** The YAKAP empanelment policy (PC 2025-0017) requires PC Clinics to establish technological capacity based on the specifications detailed in **Annex I** to ensure real-time data submission. This technical specification is missing but is necessary to understand the required IT infrastructure for PC Clinics under YAKAP.
+- **IT Requirements and Specifications for Konsulta+ EMR:** PhilHealth Circular No. 2022-0032 mentions that specific details on the inclusions and **standards of the Electronic Medical Record (EMR)** for Konsulta+ networks **shall be given in the Implementing Guidelines**. These EMR standards are crucial as only providers with functional EMRs, interoperable with PhilHealth’s systems, will be contracted.
+
+### 4. Registration and Verification Tools
+
+- **PhilHealth Check Utility (PCU) Process:** The implementation of YAKAP relies on identity verification and liveness checks through the **PhilHealth Check Utility (PCU)**. While PC Clinics are instructed on staff actions based on the PCU result, the full technical and operational guidelines for this new utility, including how beneficiaries access the PCU via the PhilHealth Member Portal (Annex C) or e-Gov PH Super App (Annex B), are crucial components of the YAKAP process flow. The registration forms for the **e-Gov PH Super App (Annex B)** are listed but missing.
+- **POS URS (without PIN):** The expanded PhilHealth Konsulta flow chart references an upcoming registration system labeled **POS URS (without PIN)**, noting it is "Forthcoming". This suggests a pending issuance or documentation detailing the use of this system for registration when the beneficiary does not yet have a PhilHealth Identification Number (PIN).
+- **PhilHealth Konsulta Assisted Registration Manual (Annex B of PC 2022-0005):** The governing policies mention authorizing third-party agencies (like LGUs or employers) to facilitate registration, and state that the **specific processes and procedures for assisted registration are detailed in the manual of procedure on PhilHealth Konsulta Assisted Registration (Annex B)**. While the rationale, objective, and scope of this manual are provided, the full operational details of assisted registration processes (e.g., through LGUs, OSCA, or Employers) are not fully included.

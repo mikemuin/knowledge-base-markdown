@@ -1,6 +1,6 @@
 # Topic - Slide - Script
 
-Build a markdown document based on the topic and content I will provide. The markdown document is formatted for conversion to PPTX using Pandoc. Each slide in the markdown will have 2 main elements: the slides and the lecture narration script. The slides will identify the key concepts to highlight. The narration script will give the lecture based on the slide. All slides will follow the overall flow based on the content given.
+Build a markdown document based on the topic and content I will provide. The markdown document is formatted for conversion to PPTX using Pandoc. Each slide in the markdown will have 2 main elements: the slides and the lecture narration script. The slides will identify the key concepts to highlight. The narration script will give the lecture based on the slide. All slides will follow the overall flow outlined by the content.
 
 Create a markdown document ready for conversion to PPTX by Pandoc. Follow these rules:
 

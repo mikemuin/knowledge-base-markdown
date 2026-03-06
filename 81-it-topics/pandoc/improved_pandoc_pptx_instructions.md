@@ -13,7 +13,7 @@ CONTENT RULES
 * Bullet lists must use unordered lists with a hyphen (-) as the marker
 * Sub-bullets are allowed to two levels deep (two indents beneath the parent). Never nest beyond three levels total
 * Each sub-level must be indented with 4 spaces relative to its parent
-* Use sub-levels sparingly — only when hierarchy genuinely exists in the content. Do not manufacture nesting just to fill space
+* Use sub-levels sparingly — only when a genuine hierarchy exists in the content. Do not manufacture nesting just to fill space
 * Emphasis is allowed: use **bold** for key terms and *italic* for secondary emphasis only. Do not use both simultaneously
 
 TABLES

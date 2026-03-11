@@ -10,14 +10,6 @@ Below is a **reference architecture** you can drop into a design doc. I’ll giv
 
 ## 1. Reference architecture (conceptual)
 
-![Image](https://media.springernature.com/lw1200/springer-static/image/art%3A10.1186%2Fs12911-020-01178-y/MediaObjects/12911_2020_1178_Fig1_HTML.png)
-
-![Image](https://www.researchgate.net/publication/346380636/figure/fig4/AS%3A962202639036416%401606418394000/MPI-Architecture-Final-Version.jpg)
-
-![Image](https://www.researchgate.net/publication/355358434/figure/fig1/AS%3A1079871124058144%401634472747611/Architecture-of-secured-hospital-management.jpg)
-
-![Image](https://www.researchgate.net/publication/275027942/figure/fig1/AS%3A294602125922304%401447250028084/High-level-architecture-of-a-patient-guidance-system-PGS.png)
-
 ### Logical view
 
 ```
@@ -63,14 +55,14 @@ Below is a **reference architecture** you can drop into a design doc. I’ll giv
 - `patient_id`
 - Demographics as **legal/clinical facts**
 - Visits, orders, results
-- Corrections requested by patient
+- Corrections requested by the patient
 
 ### MPI owns
 
 - `person_id`
 - Matching logic
 - Duplicate detection
-- Merge / unmerge decisions
+- Merge/unmerge decisions
 - Cross-record visibility
 
 ### Registration UI

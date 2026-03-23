@@ -58,9 +58,9 @@ CREATE TABLE mpi_patient_index (
   patient_id          VARCHAR(32) PRIMARY KEY,
   name_1_canon        VARCHAR(100), -- Global-friendly (e.g. Given)
   name_2_canon        VARCHAR(100), -- Global-friendly (e.g. Family)
-  full_name_norm      VARCHAR(300), 
-  alt_name_keys       JSON,         
-  phonetic_code       VARCHAR(50),  
+  full_name_norm      VARCHAR(300),
+  alt_name_keys       JSON,
+  phonetic_code       VARCHAR(50),
   dob                 DATE,
   updated_at          TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
@@ -110,7 +110,7 @@ CREATE TABLE identity_mpi.persons (
 );
 
 -- Link existing EMR records to the Anchor
-ALTER TABLE public.patients 
+ALTER TABLE public.patients
 ADD COLUMN enterprise_person_id UUID REFERENCES identity_mpi.persons(person_id);
 ```
 
@@ -147,7 +147,7 @@ FROM public.patients;
 ```
 
 #### Phase 2: Duplicate Discovery
-Once the 1:1 mapping is established, run the **Fellegi-Sunter matching algorithm** across the entire `patients` table. 
+Once the 1:1 mapping is established, run the **Fellegi-Sunter matching algorithm** across the entire `patients` table.
 - **Goal**: Identify pairs or groups of `patient_id`s that likely belong to the same human.
 - **Output**: A list of "High Confidence" merge candidates.
 
@@ -158,7 +158,7 @@ For high-confidence candidates, execute a "Soft Merge" by updating the `person_p
 -- Example: Merging Patient B into Patient A's Identity
 BEGIN;
   -- 1. Re-point Patient B to Patient A's Person ID
-  UPDATE identity_mpi.person_patient_xref 
+  UPDATE identity_mpi.person_patient_xref
   SET person_id = (SELECT person_id FROM identity_mpi.person_patient_xref WHERE patient_id = 'PATIENT_A'),
       status = 'superseded'
   WHERE patient_id = 'PATIENT_B';

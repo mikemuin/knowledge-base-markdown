@@ -1,0 +1,46 @@
+# Health IT Change Management Framework Outline
+
+- Overarching Principle
+- "Also called Failure-Aware Change Management."
+- 5 Structural Commitments
+- People, Process, and Technology Lens
+- Relationships between Layers
+- Process (How to Use the Change Management Framework)
+  - Identify different components of the layer
+  - For each layer,
+    - Define success (What does success look like?)
+    - List Assumptions (What are the assumptions?)
+    - Identify Risks (Where can we fail?)
+    - Ideate Detection Methods (How do we detect possible failures?)
+    - Implement Prevention Measures (How do we prevent failures?)
+    - Be Ready to Respond (If failure happens, how do we respond?)
+- Technology Layer
+  - What
+  - Technology Success Definition
+  - The Most Manageable Layer
+  - Critical Insight
+    - The Go Live Trap
+    - Adoption is Measure of Success
+    - Process and People are the True Determinants of Success
+- Process Layer
+  - What it is
+  - Process Layer Success Definition
+  - Why The Easiest Layer to Underestimate
+  - The Hybrid State is as important as the Start and End State
+  - Failure control map
+  - Cross cutting Observations
+- People Layer
+  - What it is
+  - People Layer Success Definition
+  - Why The Most Challenging Layer
+  - The Stakeholder Scale
+  - Two-Axis Framework
+  - Critical Nodes
+  - Champion Management
+  - Failure Control Map
+  - Cross cutting Observations
+- Output of the Framework should Impact Execution
+  - Implement
+    - Prevention
+    - Detection
+    - Response

@@ -179,7 +179,7 @@ Even if they don’t call them that.
 
 ## One-paragraph truth you can reuse
 
-> In practice, MPI value is delivered through a patient index optimized for fast, flexible matching. However, an index alone is not an MPI. True MPI capability emerges only when that index feeds into an explicit, auditable identity-resolution layer that supports merge and unmerge without altering clinical records. Commercial MPI products differ in algorithms, but they all share this architectural separation.
+> In practice, the MPI value is delivered through a patient index optimized for fast, flexible matching. However, an index alone is not an MPI. True MPI capability emerges only when that index feeds into an explicit, auditable identity-resolution layer that supports merge and unmerge without altering clinical records. Commercial MPI products differ in algorithms, but they all share this architectural separation.
 
 ------
 

@@ -3,7 +3,7 @@
 ## 1. The Core Problem: Identity vs. Records
 In healthcare, clinical systems (such as EMRs, LIS, and RIS) are designed to manage **records**—sets of clinical observations, orders, and billing events—using local identifiers (like MRNs or patient IDs). However, these systems inherently fail at managing **identity**, which is the mapping of multiple disparate records across different systems to a single human being.
 
-Because of this limitation, healthcare organizations frequently create **multiple patient records for the same human**. These duplicate records are silent, cumulative, and dangerous to patient safety, as clinicians may make medical decisions based on fragmented or incomplete clinical history.
+Because of this limitation, healthcare organizations frequently create **multiple patient records for the same person**. These duplicate records are silent, cumulative, and dangerous to patient safety, as clinicians may make medical decisions based on fragmented or incomplete clinical history.
 
 You cannot safely fix this problem by simply deleting or merging patient records in place, as doing so rewrites clinical history, risks data loss, and breaks references in the source systems.
 
@@ -30,16 +30,16 @@ This is the **judgment** layer where truth, auditability, and safety live.
 - **In plain language, this is:** The mapping table that explicitly states, "Hospital Record A and Clinic Record B both belong to Human X."
 - It maps the `person_id` (anchor) to various `patient_id`s across source systems.
 - It explicitly records the **decision** that "Record A and Record B belong to the same Person X."
-- It manages merges and unmerges. An incorrect merge can be safely revoked here by altering the mapping, changing the identity state *without* rewriting clinical history or data in the EMR.
-- It handles provenance, tracking *why* a link was made and grading the trust level of the source system.
+- It manages merges and unmerges. An incorrect merge can be safely revoked here by altering the mapping and changing the identity state, *without* rewriting clinical history or data in the EMR.
+- It handles provenance, tracking *why* a link was made, and grading the trust level of the source system.
 
 ### Layer 3: The Search Engine (`mpi_patient_index`)
 This is the **perception** layer. It powers speed, recall, and duplicate detection.
 - **In plain language, this is:** A fast, heavily-indexed search engine used solely to find records that look similar to each other.
 - This layer denormalizes, cleans, and standardizes demographic data (names, DOBs).
 - It calculates phonetic codes and alternate structures to quickly find matching candidates during patient registration.
-- It provides the input for probabilistic scoring algorithms (like Fellegi-Sunter).
-- **Crucially:** The search engine identifies candidates; it does *not* possess the authority to declare identity truth. Truth is deferred to Layer 2.
+- It provides input to probabilistic scoring algorithms (such as Fellegi-Sunter).
+- **Crucially,** the search engine identifies candidates; it does *not* possess the authority to declare the truth of identity. Truth is deferred to Layer 2.
 
 ## 4. Production System Architecture (Beyond the Data Layers)
 While the three data layers (`person`, `person_patient_xref`, `mpi_patient_index`) form the core *database* architecture of an MPI, a production-ready system requires several operational layers built around this core to function safely and effectively:

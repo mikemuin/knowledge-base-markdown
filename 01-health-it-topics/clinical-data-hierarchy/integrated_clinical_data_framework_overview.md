@@ -16,7 +16,7 @@ This framework integrates:
 
 ## 2. The Seven Levels of Clinical Data Depth
 
-This hierarchy tracks how data flows through the clinical reasoning pipeline—from establishing who a patient is to measuring the ultimate impact of care.
+This hierarchy tracks how data flows through the clinical reasoning pipeline—from establishing who a patient is to measuring the ultimate impact of care.'
 
 | Level  | Name              | Clinical Question                         | Cognitive Function    |
 | :----- | :---------------- | :---------------------------------------- | :-------------------- |

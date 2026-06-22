@@ -1,0 +1,172 @@
+
+<style>
+.fw-principle{border-left:3px solid var(--color-border-info);padding:12px 16px;margin:0 0 20px;background:var(--color-background-secondary);border-radius:0 var(--border-radius-md) var(--border-radius-md) 0}
+.fw-sq{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:8px 0 20px}
+.fw-sq-item{background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px 12px}
+.fw-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:8px 0 16px}
+.fw-card{background:var(--color-background-primary);border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden}
+.fw-card-body{padding:13px}
+.fw-badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;margin-bottom:8px;font-weight:500}
+.fw-steps{display:flex;gap:3px;flex-wrap:wrap;margin:10px 0 10px;align-items:center}
+.fw-step{font-size:10px;padding:2px 6px;border-radius:20px;background:var(--color-background-secondary);color:var(--color-text-secondary)}
+.fw-arr{font-size:10px;color:var(--color-text-tertiary)}
+.fw-btn{font-size:11px;padding:6px 10px;border:0.5px solid var(--color-border-secondary);border-radius:var(--border-radius-md);background:transparent;cursor:pointer;width:100%;color:var(--color-text-secondary);text-align:left;transition:background .15s}
+.fw-btn:hover{background:var(--color-background-secondary);color:var(--color-text-primary)}
+.fw-btn.active{background:var(--color-background-secondary);color:var(--color-text-primary);font-weight:500}
+.fw-map{border:0.5px solid var(--color-border-tertiary);border-radius:var(--border-radius-lg);overflow:hidden;margin-bottom:12px;animation:fadein .2s ease}
+@keyframes fadein{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+.fw-map-topbar{padding:10px 14px;display:flex;align-items:center;gap:8px;border-bottom:0.5px solid var(--color-border-tertiary);background:var(--color-background-secondary)}
+.fw-tbl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);gap:1px;background:var(--color-border-tertiary)}
+.fw-th{background:var(--color-background-secondary);padding:8px 11px;font-size:11px;font-weight:500;color:var(--color-text-secondary)}
+.fw-td{background:var(--color-background-primary);padding:9px 11px}
+.fw-td ul{margin:0;padding-left:14px;font-size:11px;color:var(--color-text-secondary);line-height:1.5}
+.fw-td ul li{margin-bottom:4px}
+.fw-owner{padding:8px 14px;background:var(--color-background-secondary);border-top:0.5px solid var(--color-border-tertiary);display:flex;gap:8px;align-items:flex-start}
+.lbl{font-size:11px;font-weight:500;color:var(--color-text-tertiary);white-space:nowrap}
+</style>
+
+<div style="padding:1rem 0">
+  <p style="font-size:11px;font-weight:500;color:var(--color-text-tertiary);margin:0 0 6px;letter-spacing:.07em;text-transform:uppercase">Core principle</p>
+  <div class="fw-principle">
+    <p style="font-size:15px;font-weight:500;color:var(--color-text-primary);margin:0;line-height:1.5">Change management is the disciplined management of failure within People, Process, and Technology during project execution.</p>
+  </div>
+
+  <p style="font-size:11px;font-weight:500;color:var(--color-text-tertiary);margin:0 0 6px;letter-spacing:.07em;text-transform:uppercase">Strategic questions</p>
+  <div class="fw-sq">
+    <div class="fw-sq-item">
+      <p style="font-size:10px;color:var(--color-text-tertiary);margin:0 0 3px;font-weight:500">Failure anticipation</p>
+      <p style="font-size:12px;color:var(--color-text-primary);margin:0;line-height:1.4">If this project fails, where would it fail?</p>
+    </div>
+    <div class="fw-sq-item">
+      <p style="font-size:10px;color:var(--color-text-tertiary);margin:0 0 3px;font-weight:500">Sociotechnical dynamics</p>
+      <p style="font-size:12px;color:var(--color-text-primary);margin:0;line-height:1.4">What human and system forces are in tension?</p>
+    </div>
+    <div class="fw-sq-item">
+      <p style="font-size:10px;color:var(--color-text-tertiary);margin:0 0 3px;font-weight:500">Decision authority</p>
+      <p style="font-size:12px;color:var(--color-text-primary);margin:0;line-height:1.4">Who needs to decide — and who is deciding?</p>
+    </div>
+  </div>
+
+  <p style="font-size:11px;font-weight:500;color:var(--color-text-tertiary);margin:0 0 6px;letter-spacing:.07em;text-transform:uppercase">Three lenses · PPT</p>
+  <div class="fw-grid">
+    <div class="fw-card">
+      <div style="height:3px;background:var(--color-text-warning)"></div>
+      <div class="fw-card-body">
+        <span class="fw-badge" style="background:var(--color-background-warning);color:var(--color-text-warning)">People</span>
+        <p style="font-size:13px;font-weight:500;color:var(--color-text-primary);margin:0 0 2px">Behavior system</p>
+        <p style="font-size:11px;color:var(--color-text-secondary);margin:0 0 8px;line-height:1.4">Engagement, ownership, and adoption — from start to finish</p>
+        <p style="font-size:10px;color:var(--color-text-tertiary);margin:0 0 1px;font-weight:500">Characteristic</p>
+        <p style="font-size:11px;color:var(--color-text-danger);margin:0 0 8px;font-weight:500">Hardest to manage. Most sensitive.</p>
+        <div class="fw-steps"><span class="fw-step">Define</span><span class="fw-arr">›</span><span class="fw-step">Anticipate</span><span class="fw-arr">›</span><span class="fw-step">Prevent</span><span class="fw-arr">›</span><span class="fw-step">Detect</span><span class="fw-arr">›</span><span class="fw-step">Respond</span></div>
+        <button class="fw-btn" id="btn-people" onclick="showMap('people')">View failure control map ↗</button>
+      </div>
+    </div>
+    <div class="fw-card">
+      <div style="height:3px;background:var(--color-text-success)"></div>
+      <div class="fw-card-body">
+        <span class="fw-badge" style="background:var(--color-background-success);color:var(--color-text-success)">Process</span>
+        <p style="font-size:13px;font-weight:500;color:var(--color-text-primary);margin:0 0 2px">Execution system</p>
+        <p style="font-size:11px;color:var(--color-text-secondary);margin:0 0 8px;line-height:1.4">Current to future state — what is, to what it should be</p>
+        <p style="font-size:10px;color:var(--color-text-tertiary);margin:0 0 1px;font-weight:500">Characteristic</p>
+        <p style="font-size:11px;color:var(--color-text-warning);margin:0 0 8px;font-weight:500">Easiest to underestimate.</p>
+        <div class="fw-steps"><span class="fw-step">Define</span><span class="fw-arr">›</span><span class="fw-step">Anticipate</span><span class="fw-arr">›</span><span class="fw-step">Prevent</span><span class="fw-arr">›</span><span class="fw-step">Detect</span><span class="fw-arr">›</span><span class="fw-step">Respond</span></div>
+        <button class="fw-btn" id="btn-process" onclick="showMap('process')">View failure control map ↗</button>
+      </div>
+    </div>
+    <div class="fw-card">
+      <div style="height:3px;background:var(--color-text-info)"></div>
+      <div class="fw-card-body">
+        <span class="fw-badge" style="background:var(--color-background-info);color:var(--color-text-info)">Technology</span>
+        <p style="font-size:13px;font-weight:500;color:var(--color-text-primary);margin:0 0 2px">Enablement system</p>
+        <p style="font-size:11px;color:var(--color-text-secondary);margin:0 0 8px;line-height:1.4">Tools interacting with real human behavior and workflows</p>
+        <p style="font-size:10px;color:var(--color-text-tertiary);margin:0 0 1px;font-weight:500">Characteristic</p>
+        <p style="font-size:11px;color:var(--color-text-success);margin:0 0 8px;font-weight:500">Most often the easiest to solve.</p>
+        <div class="fw-steps"><span class="fw-step">Define</span><span class="fw-arr">›</span><span class="fw-step">Anticipate</span><span class="fw-arr">›</span><span class="fw-step">Prevent</span><span class="fw-arr">›</span><span class="fw-step">Detect</span><span class="fw-arr">›</span><span class="fw-step">Respond</span></div>
+        <button class="fw-btn" id="btn-technology" onclick="showMap('technology')">View failure control map ↗</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="map-container"></div>
+</div>
+
+<script>
+const maps = {
+  people: {
+    bar: 'var(--color-text-warning)',
+    badgeBg: 'var(--color-background-warning)',
+    badgeColor: 'var(--color-text-warning)',
+    label: 'People — Behavior system',
+    risks: ['Resistance to change and adoption failure across clinical staff','Leadership misalignment or weak executive sponsorship','Training deficits and clinical competency gaps','Change fatigue and saturation in high-volume environments','Cultural and sociotechnical mismatch in diverse global settings'],
+    prevent: ['Clinical champion and superuser program per unit','Stakeholder power-interest mapping at project start','Structured leadership alignment sessions (ADKAR model)','Role-based training with adult learning design principles','Cultural and organizational readiness assessment pre-implementation'],
+    detect: ['Adoption rate dashboards by unit, role, and site','Biweekly pulse surveys and real-time sentiment tracking','Helpdesk ticket volume and category trend analysis','Direct workflow observation at go-live and post-activation','Participation rates in training sessions and go-live events'],
+    respond: ['Rapid re-engagement via floor-level champions and superusers','Executive escalation protocol for sponsorship gaps','Targeted retraining programs for low-adoption cohorts','Workflow redesign sprints responding to user pain signals','Structured communication reset and leadership messaging refresh'],
+    owner: 'Change Management Lead · CMO · CHRO · Clinical Department Heads'
+  },
+  process: {
+    bar: 'var(--color-text-success)',
+    badgeBg: 'var(--color-background-success)',
+    badgeColor: 'var(--color-text-success)',
+    label: 'Process — Execution system',
+    risks: ['Workflow redesign scope severely underestimated at planning','Incomplete or inaccurate current-state process documentation','Policy and regulatory compliance misalignment (Joint Commission, MOH)','Insufficient UAT, piloting, and phased testing cycles','Governance vacuum — unclear RACI and unresolved decision rights'],
+    prevent: ['End-to-end BPMN process mapping before solution design','Gap analysis between current and target future state','Explicit RACI matrix with escalation paths defined up front','Phased piloting with structured go/no-go decision gates','Regulatory and compliance review checkpoints built into project schedule'],
+    detect: ['Process KPI dashboards: cycle times, error and exception rates','Audit trails and deviation reporting within clinical workflows','UAT defect logs, testing coverage, and open issue tracking','Post-go-live workflow deviation monitoring by supervisors','Governance cadence tracking — missed reviews and stalled decisions'],
+    respond: ['Rollback protocol activation for critical process failures','Rapid redesign sprints with frontline clinical staff involved','Escalation to Project Steering Committee for governance blockers','Interim manual workaround documentation distributed immediately','Structured post-incident process review and lessons-learned session'],
+    owner: 'Project Manager · Clinical Operations Lead · Quality Director · PMO'
+  },
+  technology: {
+    bar: 'var(--color-text-info)',
+    badgeBg: 'var(--color-background-info)',
+    badgeColor: 'var(--color-text-info)',
+    label: 'Technology — Enablement system',
+    risks: ['Integration and interoperability failures (HL7 FHIR, REST APIs)','Data quality degradation and migration errors during cutover','Infrastructure and scalability gaps revealed under real-world load','Security, privacy, and compliance exposure (HIPAA, GDPR, PDPA)','Vendor lock-in, SLA failure, and unsupported system risk'],
+    prevent: ['Architecture and interoperability design review (FHIR R4 standards)','Data governance framework and pre-migration validation protocols','Load and stress testing in production-equivalent environments','Security risk assessment and penetration testing before go-live','Contract SLA review with exit strategy and data portability clauses'],
+    detect: ['Real-time system monitoring and alerting (uptime, latency, errors)','Automated data quality validation pipelines post-migration','Integration endpoint health dashboards and message queue monitoring','Security audit logs with anomaly detection and alerting','Vendor performance scorecard tracked against contracted SLA metrics'],
+    respond: ['Incident response plan with P1/P2/P3 escalation paths defined','Technical rollback and point-in-time system restore procedures','Vendor escalation protocol with named account manager and SLA remedies','Data remediation workflows for identified migration errors','Emergency Change Advisory Board (CAB) process for critical production issues'],
+    owner: 'CTO · Health IT Director · Information Security Officer · Vendor Manager'
+  }
+};
+
+let active = null;
+
+function showMap(layer) {
+  const container = document.getElementById('map-container');
+  const btn = document.getElementById('btn-' + layer);
+  ['people','process','technology'].forEach(l => {
+    const b = document.getElementById('btn-' + l);
+    b.classList.remove('active');
+    b.textContent = 'View failure control map ↗';
+  });
+  if (active === layer) {
+    container.innerHTML = '';
+    active = null;
+    return;
+  }
+  active = layer;
+  btn.classList.add('active');
+  btn.textContent = 'Hide failure control map ↑';
+  const d = maps[layer];
+  const li = arr => arr.map(r => `<li>${r}</li>`).join('');
+  container.innerHTML = `<div class="fw-map">
+    <div class="fw-map-topbar" style="border-top:2px solid ${d.bar}">
+      <span class="fw-badge" style="background:${d.badgeBg};color:${d.badgeColor};margin:0">${d.label}</span>
+      <span style="font-size:11px;color:var(--color-text-tertiary)">Failure Control Map</span>
+    </div>
+    <div class="fw-tbl">
+      <div class="fw-th">Top risks</div>
+      <div class="fw-th">Prevent</div>
+      <div class="fw-th">Detect</div>
+      <div class="fw-th">Respond</div>
+      <div class="fw-td"><ul>${li(d.risks)}</ul></div>
+      <div class="fw-td"><ul>${li(d.prevent)}</ul></div>
+      <div class="fw-td"><ul>${li(d.detect)}</ul></div>
+      <div class="fw-td"><ul>${li(d.respond)}</ul></div>
+    </div>
+    <div class="fw-owner">
+      <span class="lbl">Owners</span>
+      <span style="font-size:12px;color:var(--color-text-primary)">${d.owner}</span>
+    </div>
+  </div>`;
+  container.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+</script>
